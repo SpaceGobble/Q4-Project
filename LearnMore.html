@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Computational Physics">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Uzman Plaso">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computational Physics</title>
+    <style>
+        #openingPage{
+            background-image: url('ComPhy.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 100vh;
+        }
+        body{
+            background-color: #07081D;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        header img{
+            height: 8vh;
+            width: auto;
+            position: relative;
+            top: 1vh;
+        }
+        header nav{
+            display: inline;
+        }
+        header{
+            display: inline;
+            position: sticky;
+        }
+        header ul {
+            display: inline;
+        }
+        header nav ul li{
+            list-style: none;
+            display: inline;
+            padding: 1vw;
+            padding-top: none;
+            color: white;
+            font-size: 3vh;
+            text-decoration: none ;
+            position: relative;
+            top: -1.5vh;
+            text-align: center;
+        }
+        header h1{
+            display: inline;
+            font-size: 8vh;
+            color: white;
+            padding : 1vw;
+            margin: 0px;
+        }
+        #login{
+            font-size: 3.5vh;
+            font-weight: bold;
+            background-color: #07081D;
+            color: white;
+            border: #07081D;
+            transform: translate(57vh,-1.5vh);
+        }
+        #register{
+            font-size: 3.5vh;
+            font-weight: bold;
+            background-color: #A193C7;
+            color: black;
+            border: #A193C7;
+            border-radius: .8vh;
+            transform: translate(57vh,-1.5vh);
+        }
+        #about{
+            color:white;
+            text-align: center;
+        }
+        aside{
+            color: white;
+            text-align: center;
+            width: 40vw;
+        }
+        .paragraph1{
+            font-size: 2vh;
+            font-weight: bold;
+        }
+        .paragraph2{
+            font-size: 5vh;
+            font-weight: bold;
+            margin: 0;
+            padding: 0;
+        }
+        .paragraph3{
+            font-size: 3vh;
+        }
+        button{
+            font-size: 3.5vh;
+            font-weight: bold;
+            background-color: #A193C7;
+            color: black;
+            border: #A193C7;
+            border-radius: .8vh;
+        }
+        header nav ul li a{
+            color: white;
+            text-decoration: none ;
+        }
+    </style>
+  </head>
+  <body>
+    <div id="openingPage">
+        <header>
+            <img src="ComPhy (4).png" alt="logo">
+            <h1>ComPhy</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html.html">Home</a></li>
+                    <li><a href="Simulation.html">Simulations</a></li>
+                    <li><a href="LearnMore.html">Learn More</a></li>
+                </ul>
+                <button onclick="login()" id="login">Login</button>
+                <button onclick="register()" id="register" >Register</button>
+            </nav>
+        </header>
+        <div id="about">
+            <p class="paragraph1">ABOUT</p>
+            <p class="paragraph2">Background of Computational Physics<p>
+            <p class="paragraph3">According to Wikipedia "Computational physics is the study and implementation of numerical analysis to solve problems in physics. Historically, computational physics was the first application of modern computers in science, and is now a subset of computational science. It is sometimes regarded as a subdiscipline (or offshoot) of theoretical physics, but others consider it an intermediate branch between theoretical and experimental physics — an area of study which supplements both theory and experiment."</p>
+            <p class="paragraph3">There is a debate about the status of computation within the scientific method. Sometimes it is regarded as more akin to theoretical physics; some others regard computer simulation as "computer experiments", yet still others consider it an intermediate or different branch between theoretical and experimental physics, a third way that supplements theory and experiment. While computers can be used in experiments for the measurement and recording (and storage) of data, this clearly does not constitute a computational approach.</p>
+        </div>
+        <aside>
+            <p class="paragraph1">SAMPLE</p>
+            <p class="paragraph2">Sample Questions<p>
+            <p class="paragraph3">Questions like these are only a few you can face while doing Computational Physics, but they provide a good basis for what to expect.</p>
+            <button>Next Question</button>
+        </aside>
+        <img src="" alt="">
+        <img src="" alt="">
+        <img src="" alt="">
+        <img src="" alt="">
+        <img src="" alt="">
+        <img src="" alt="">
+        <img src="" alt="">
+        <img src="" alt="">
+    </div>
+
+    
+  </body>
+  <script>
+	function login(){
+        window.location.href = "Login.html";
+    }
+    function register(){
+        window.location.href = "register.html.html";
+    }
+  </script>
+    
+</html>
